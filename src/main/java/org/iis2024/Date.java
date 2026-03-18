@@ -71,7 +71,10 @@ public class Date {
    *
    * @return true if the date is valid, false otherwise.
    */
-  public boolean validate() {
+  public void methodAddedByOwner() {
+    System.out.println("Method added by the owner");
+  }
+    public boolean validate () {
     SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
     dateFormat.setLenient(false);
 
